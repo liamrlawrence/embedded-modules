@@ -1,0 +1,6 @@
+# Header files (.h) are C, GitHub marks them incorrectly as C++
+*.h linguist-language=C
+
+# Directories to ignore for code metrics
+docs/** linguist-vendored
+drivers/** linguist-vendored
